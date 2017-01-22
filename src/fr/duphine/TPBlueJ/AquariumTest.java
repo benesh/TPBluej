@@ -9,7 +9,7 @@ import org.junit.Test;
 public class AquariumTest {
 	private Poisson poisson = new Poisson("Pp");
 	private Aquarium aqua = new Aquarium("commun");
-	
+		
 	@Test
 	public void testAquarium() {
 		//fail("Not yet implemented");		
@@ -21,7 +21,7 @@ public class AquariumTest {
 		aqua.ajouterHabitant(poisson);
 		assertEquals("le nombre d'habitant est: 1",aqua.getHabitant());
 	}
-
+ 
 	@Test
 	public void testSetPopulation() {
 		//fail("Not yet implemented");

@@ -12,7 +12,6 @@ public class AnemoneTest {
 	public void testEstHabitePar() {
 		//fail("Not yet implemented");
 		assertEquals("ami habite ici",an.estHabitePar());
-		
 	}
 
 }
